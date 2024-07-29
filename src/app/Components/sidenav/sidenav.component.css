@@ -1,0 +1,29 @@
+.container {
+  
+    background-color:blue;
+  
+  
+    height: 70vh;
+  
+  overflow-y: hidden;
+  
+  }
+  /* .list {
+     color:crimson;
+    
+    font-size: larger;
+  } */
+  .drawer{
+    border-right: solid black(236, 236, 243) 4px; 
+ 
+    border-bottom:solid rgb(83, 83, 194) 7px;
+    width:10%;background-color:whitesmoke; 
+    ;overflow-y:hidden;color:white;border-right: solid rgb(236, 236, 243) 4px; 
+    border-bottom:solid rgb(83, 83, 194) 7px;
+    width:10%;background-color:whitesmoke; 
+    ;overflow-y:hidden;color:white
+  }
+  .content{
+    text-align: center; min-height: 600px; max-height: 400px; overflow-y: hidden; margin-right: 10%; margin-top: 5%;
+    
+  }

@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mat-drawer-opened{
+    width: 15%;
+}
+
+mat-sidenav-container {
+    height: 100%;
+    background-color:white;
+}

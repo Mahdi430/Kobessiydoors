@@ -1,0 +1,42 @@
+.custom-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #00131c; /* Primary color */
+    color: #ff8c00; /* Accent color */
+  }
+  
+  .menu-button {
+    background-color: #ff8c00; /* Accent color */
+    color: #00131c; /* Primary color */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: rgba(214, 149, 51, 0.8); /* Slightly lighter accent color */
+    transform: scale(1.1);
+  }
+  
+  .toolbar-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #ff8c00; /* Accent color */
+    margin-left: 15px;
+  }
+  
+  .mat-toolbar {
+    height: 64px;
+    line-height: 64px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-toolbar {
+      padding: 0 10px;
+    }
+  
+    .toolbar-title {
+      font-size: 1.2em;
+    }
+  }
+  
