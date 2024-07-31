@@ -2,4 +2,17 @@
 //pictures
 </div>
 
-
+<div class="container">
+    <form (submit)="addImage($event)">
+      <input type="file" id="fileInput" (change)="onFileSelected($event)" hidden>
+      <input type="number" [(ngModel)]="price" placeholder="Enter price" required>
+      <button type="submit">Upload Image</button>
+    </form>
+    
+    <div class="image-list">
+      <div class="image-card" *ngFor="let image of images">
+        <img [src]="image.url" alt="Uploaded Image">
+        <p>${{ image.price }}</p>
+      </div>
+    </div>
+  </div>
